@@ -33,4 +33,5 @@ pub mod transport;
 pub type VarInt = i32;
 pub type VarLong = i64;
 pub type SizedVec<T> = Vec<T>;
+pub type ShortSizedVec<T> = Vec<T>;
 pub type Maybe<T> = Option<T>;
